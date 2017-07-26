@@ -1,9 +1,9 @@
 # prase-IDXformat
-# MNIST数据集:
-# train-images.idx3-ubyte.gz
-# train-labels.idx1-ubyte.gz
-# t10k-images.idx3-ubyte.gz
-# t10k-labels.idx1-ubyte.gz
+#MNIST数据集:
+#train-images.idx3-ubyte.gz
+#train-labels.idx1-ubyte.gz
+#t10k-images.idx3-ubyte.gz
+#t10k-labels.idx1-ubyte.gz
 解压后发现里面每个压缩包里有一个idx-ubyte文件，没有图片文件在里面。
 查阅官网后发现原来这是IDX文件格式，是一种用来存储向量与多维度矩阵的文件格式。
 
